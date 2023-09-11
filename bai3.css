@@ -1,0 +1,30 @@
+#body{
+    display:flex;
+    position:relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.box{
+    width: 220px;
+    height:400px;
+    background-color:blue;
+    flex-basis:45%;
+}
+.content{
+    flex-basis: 50%;
+    margin-left:50px;
+    font-size: 20px;
+}
+
+.content2{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:last baseline;
+}
+.content1{
+    margin-top: 40px;
+}

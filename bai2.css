@@ -1,0 +1,28 @@
+#wrapper{
+    max-width: 960px;
+    font-size: 30px;
+    font-family: 'arial';
+    font-weight: 300;
+    text-decoration: underline;
+    line-height: 150%;
+}
+.main-content{
+    display: flex;
+}
+.content{
+    font-size: 20px;
+    font-family: 'arial';
+    line-height: 150%; 
+    flex-basis: 40%;
+    
+
+}
+.sidebar{
+    font-size: 20px;
+    flex-basis:60%;
+}
+
+input[type=submit]{
+    background-color: aqua;
+    border: 1px solid aqua;
+}
